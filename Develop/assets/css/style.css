@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    padding: 20px;
+    padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -18,6 +18,9 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    position: relative;
+    top: 25px;
+    left: 25px;
 }
 
 .header h1 .seo {
@@ -41,15 +44,40 @@ body {
     margin-left: 25px;
 }
 
+/* first link */
+#lin1 {
+    margin-left: 890px;
+    position: relative;
+    bottom: 10px;
+}
+
+/* second link */
+#lin2 {
+    margin-left: 1250px;
+    position: relative;
+    bottom: 33px;
+}
+
+/* third link */
+#lin3 {
+    margin-left: 1650px;
+    position: relative;
+    bottom: 55px;
+}
+
+/* all links */
 a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 p {
     font-size: 16px;
 }
 
+/* big main image */
 .hero {
     height: 800px;
     width: 100%;
@@ -116,18 +144,21 @@ p {
     text-align: center;
 }
 
+/* lead generation */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* brand awareness */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* cost management */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -183,7 +214,7 @@ p {
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+#social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
